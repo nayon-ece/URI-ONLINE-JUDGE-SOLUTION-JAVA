@@ -1,0 +1,30 @@
+package uri_online_problem;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Arif Anzum
+ */
+public class Problem_1009 {
+    public static void main(String[] args) {
+        
+        
+        Scanner sc=new Scanner(System.in);
+        String name=new String();
+        double a,b,c;
+        name=sc.nextLine();
+        a=sc.nextDouble();
+        b=sc.nextDouble();
+        c=(b/100)*15+a;
+        
+        
+        System.out.printf("TOTAL = R$ %.2f",c );
+        System.out.printf("\n");
+        
+        
+        
+       
+    }
+    
+}
